@@ -3,9 +3,9 @@
 	"name": "Sound Accumulator Tools",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Obsidian plugin for contributing to the Sound Accumulator project.",
+	"description": "Obsidian plugin for contributing to the Sound Accumulator project",
 	"author": "Tyler Schreiber",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"authorUrl": "https://github.com/t-schreibs",
+	"fundingUrl": "https://github.com/sponsors/t-schreibs",
 	"isDesktopOnly": false
 }
