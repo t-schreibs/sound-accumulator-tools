@@ -31,9 +31,6 @@ export class WelcomeModal extends Modal {
         text: 'Frontmatter info tables are rendered in the bodies of posts when in Preview mode'
     });
     ul.createEl('li', {
-        text: 'Frontmatter track and release lists are rendered at the bottom of posts when in Preview mode'
-    });
-    ul.createEl('li', {
         text: '"Insert link" command allows for quick, smart insertion of markdown links in both frontmatter and body text'
     });
   }
