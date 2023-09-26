@@ -48,6 +48,7 @@ export default class SoundAccumulatorPlugin extends Plugin {
 				)
 			}
 		});
+		
 		// Open link modal
 		this.addCommand({
 			id: 'insert-link',

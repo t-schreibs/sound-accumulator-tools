@@ -1,4 +1,4 @@
-import { FuzzySuggestModal, MarkdownEditView, MarkdownView, Notice, TFile } from "obsidian";
+import { FuzzySuggestModal, TFile } from "obsidian";
 
 export class LinkModal extends FuzzySuggestModal<TFile> {
     getItems(): TFile[] {
@@ -6,7 +6,7 @@ export class LinkModal extends FuzzySuggestModal<TFile> {
     }
 
     getItemText(file: TFile): string {
-        return file.name;
+        return `${file.name} (${file.path})`;
     }
 
     onChooseItem(file: TFile, evt: MouseEvent | KeyboardEvent) {
