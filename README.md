@@ -1,4 +1,4 @@
-# Obsidian Sample Plugin
+# Sound Accumulator Tools
 
 Obsidian plugin for contributing to the Sound Accumulator project.
 
